@@ -1,0 +1,25 @@
+nav {
+   border-bottom: 1px solid #efefef;
+   padding: 20px 0;
+   ul{
+       width: 60%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin-left: -35px;
+       li{
+           a{
+               color: $colorBlack;
+               text-transform: uppercase;
+               font-weight: 300;
+               font-size: 14px;
+               letter-spacing: 1px;
+               transition: 0.3s all linear;
+                
+                &:hover{
+                    color: $colorGreen;
+                }
+           }
+       }      
+   }
+}
